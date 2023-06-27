@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.caja{
+    margin-right: 4px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(235, 45, 127);
+    /*transition-property: backgraund-color,border-radius;
+    transition-duration: 2500ms;
+    transition: background-color,border-radius,transform,opacity 2500ms;*/
+    transition: all 2500ms;
+    display: inline-block;
+}
+.caja:hover{
+    background-color: rgb(228, 169, 253);
+    border-radius: 50%;
+}
+.caja.active{
+    transform: scale(.9);
+    opacity: 3;
+}
